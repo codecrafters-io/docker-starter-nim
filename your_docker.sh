@@ -1,5 +1,5 @@
 #!/bin/sh
 set -e
 tmpFile=$(mktemp)
-go build -o "$tmpFile" app/main.go
+nim compile --verbosity=0 --out="$tmpFile" app/main.nim &> /dev/null
 exec "$tmpFile" "$@"

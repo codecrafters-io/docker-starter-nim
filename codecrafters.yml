@@ -4,8 +4,8 @@
 # unless you really need them.
 debug: false
 
-# Use this to change the Go version used to run your code
+# Use this to change the Nim version used to run your code
 # on Codecrafters.
 #
-# Available versions: go-1.13 
-language_pack: go-1.13
+# Available versions: nim-1.0
+language_pack: nim-1.0
