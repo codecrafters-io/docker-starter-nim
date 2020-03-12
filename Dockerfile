@@ -1,7 +1,6 @@
-FROM golang:1.13-alpine
+FROM nimlang/nim:1.0.6-alpine
 
 RUN apk add curl
-RUN apk add go
 
 ARG docker_explorer_version=v11
 RUN curl -Lo /usr/local/bin/docker-explorer https://github.com/codecrafters-io/docker-explorer/releases/download/${docker_explorer_version}/${docker_explorer_version}_linux_amd64

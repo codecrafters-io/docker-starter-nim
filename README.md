@@ -1,4 +1,4 @@
-This is a starting point for Go solutions to the
+This is a starting point for Nim solutions to the
 ["Build Your Own Docker" Challenge](https://codecrafters.io/challenges/docker).
 
 **Note**: If you're viewing this repo on GitHub, head over to
@@ -6,11 +6,11 @@ This is a starting point for Go solutions to the
 
 # Usage
 
-1. Ensure you have `go` installed locally
+1. Ensure you have `nim (1.0)` installed locally
 1. Download [`docker-explorer`], as [mentioned
    here](https://github.com/codecrafters-io/docker-explorer).
 1. Follow the details below ("Running your program locally") to run your Docker
-   implementation, which is implemented in `app/main.go`.
+   implementation, which is implemented in `app/main.nim`.
 1. Commit your changes and run `git push origin master` to submit your solution
    to CodeCrafters. Test output will be streamed to your terminal.
 
@@ -36,7 +36,7 @@ git commit --allow-empty -m "Running tests"
 git push origin master
 ```
 
-Go to `app/main.go` and uncomment the implementation. Commit and push your
+Go to `app/main.nim` and uncomment the implementation. Commit and push your
 changes, and you'll now see the first stage pass.
 
 Time to move on to the next stage!
